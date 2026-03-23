@@ -64,7 +64,7 @@ Cada grupo deve:
 
 * criar sua própria branch
 * implementar seu widget
-* atualizar sua branch com a `main` mais recente antes de finalizar
+* atualizar sua branch com a `master` mais recente antes de finalizar
 * resolver conflitos, se houver
 * testar se o app continua funcionando
 * enviar sua solução para o repositório
@@ -88,10 +88,10 @@ git add .
 git commit -m "Implementa Widget6: Agify"
 
 # atualizar a branch principal antes do merge
-git checkout main
-git pull origin main
+git checkout master
+git pull origin master
 git checkout feature/widget6
-git rebase main
+git rebase master
 
 # resolver conflitos caso existam (manual)
 # depois:
