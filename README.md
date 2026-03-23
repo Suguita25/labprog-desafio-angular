@@ -201,11 +201,11 @@ Consuma a API:
 
 ---
 
-### Widget5: ZenQuotes
+### Widget5: Random Quote
 
 Consuma a API:
 
-`https://zenquotes.io/api/random`
+`https://dummyjson.com/quotes/random`
 
 **Objetivo:** exibir uma citação aleatória.
 
